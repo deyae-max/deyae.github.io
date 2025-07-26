@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Java Beans Coffee Shop</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 3px;
+      color: #64ffda;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #64ffda;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bfa5;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #00bfa5, #00897b);
+      color: #121212;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .menu {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .menu h3 {
+      font-size: 2rem;
+      border-bottom: 2px solid #64ffda;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+    }
+    .menu-item {
+      background: #1f1f1f;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(100, 255, 218, 0.3);
+      transition: background 0.3s ease;
+      cursor: default;
+    }
+    .menu-item:hover {
+      background: #00bfa5;
+      color: #121212;
+    }
+    .menu-item h4 {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+    .menu-item p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      color: #ccc;
+    }
+    .menu-item span.price {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #64ffda;
+    }
+    footer {
+      text-align: center;
+      color: #444;
+      padding: 15px;
+      margin-top: 60px;
+    }
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 2rem;
+      }
+      .menu h3 {
+        font-size: 1.5rem;
+      }
+      .menu-item h4 {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Java Beans</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fresh Coffee, Crafted With Love</h2>
+    <p>Welcome to Java Beans, where every cup is brewed to perfection. Enjoy our selection of artisan coffees and cozy atmosphere.</p>
+  </section>
+
+  <section class="menu">
+    <h3>Our Menu</h3>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h4>Espresso</h4>
+        <p>Rich and bold espresso shot</p>
+        <span class="price">$3.00</span>
+      </div>
+      <div class="menu-item">
+        <h4>Cappuccino</h4>
+        <p>Espresso with steamed milk foam</p>
+        <span class="price">$4.50</span>
+      </div>
+      <div class="menu-item">
+        <h4>Latte</h4>
+        <p>Smooth blend of espresso and steamed milk</p>
+        <span class="price">$4.75</span>
+      </div>
+      <div class="menu-item">
+        <h4>Mocha</h4>
+        <p>Chocolate flavored coffee delight</p>
+        <span class="price">$5.00</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact us at <a href="mailto:deyae.rossi0@gmail.com" style="color:#64ffda;">deyae.rossi0@gmail.com</a></p>
+    <p>© 2025 Java Beans Coffee Shop</p>
+  </footer>
+</body>
+</html>

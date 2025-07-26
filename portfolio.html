@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deyae — Freelance Web Developer</title>
+  <style>
+    /* Reset + basics */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-behavior: smooth;
+    }
+    body {
+      background-color: #121212;
+      color: #eee;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 5px;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: #64ffda;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bfa5;
+    }
+    section {
+      max-width: 900px;
+      width: 100%;
+      margin-bottom: 60px;
+    }
+    h2 {
+      font-size: 2rem;
+      border-bottom: 2px solid #64ffda;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .projects a {
+      display: block;
+      background: #1f1f1f;
+      color: #64ffda;
+      padding: 15px 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(100, 255, 218, 0.2);
+      text-decoration: none;
+      font-weight: 700;
+      transition: background 0.3s ease;
+    }
+    .projects a:hover {
+      background: #00bfa5;
+      color: #121212;
+      box-shadow: 0 0 12px #00bfa5;
+    }
+    footer {
+      text-align: center;
+      color: #444;
+      font-size: 0.9rem;
+      padding: 10px;
+      margin-top: auto;
+    }
+    .contact-info {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      .projects a {
+        font-size: 1rem;
+        padding: 12px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deyae</h1>
+    <p>Freelance Web Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m Deyae, a passionate freelance web developer specializing in creating clean, modern, and responsive websites that help businesses and individuals build a strong online presence. With a keen eye for detail and a commitment to quality, I’m ready to bring your ideas to life.
+    </p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <a href="personal_portfolio.html" target="_blank" rel="noopener">Personal Portfolio Site</a>
+      <a href="coffee-shop.html" target="_blank" rel="noopener">Coffee Shop Website</a>
+      <a href="product-page.html" target="_blank" rel="noopener">Product Landing Page</a>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you’d like to work with me or have any questions, feel free to reach out!</p>
+    <p class="contact-info">Email: <a href="mailto:deyae.rossi0@gmail.com" style="color:#64ffda;">deyae.rossi0@gmail.com</a></p>
+    <p class="contact-info"><a href="https://github.com/deyae-max" target="_blank" style="color:#64ffda;">GitHub</a></p>
+  </section>
+  <footer>
+    <p>© 2025 Deyae. All rights reserved.</p>
+  </footer>
+</body>
+</html>
